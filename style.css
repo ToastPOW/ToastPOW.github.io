@@ -10,6 +10,7 @@
     padding-top: 20px;
 }
 body {
+    background: #FEFDDF;
     font-family: Arial;
     font-size: 20px;
 }
@@ -24,14 +25,10 @@ body {
 footer {
     color: white;
     padding: 10px 10px 20px 5px;
-    background: #468432;
-    height: px;
+    background: #003049;
 }
 .no-bg {
     background: none;
-}
-div {
-    background: #9AD872;
 }
 #highlight {
     text-shadow: 5px 5px 5px black;
@@ -42,7 +39,7 @@ div {
     background: yellow;
     color: red;
 }
-img {
+img .no-border {
     border: black inset 3px;
 }
 .nav {
@@ -55,9 +52,17 @@ img {
 }
 a {
     text-decoration: none;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid red;
 }
 a:hover {
     background: #FFA02E;
     text-decoration: underline;
 }
-/*FFA02E  */
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+div {
+    padding: 20px;
+}
