@@ -67,12 +67,6 @@
 .no-bg {
     background: none;
 }
-.no-border {
-    border: none;
-}
-.section-1 {
-    clear: right;  
-}
 .title {
     padding-top: 10px;
     color: white;
@@ -124,7 +118,6 @@ img {
     border-radius: 10px;
 }
 p {
-    overflow: hidden;
     margin-left: 10%;
     margin-right: 10%;
 }
