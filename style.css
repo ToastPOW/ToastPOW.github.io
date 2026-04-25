@@ -1,5 +1,7 @@
 /* id goes here */
 #highlight {
+    padding-right: 5px;
+    padding-left: 5px;
     border-radius: 5px;
     text-shadow: 5px 5px 5px black;
     background: red;
@@ -12,16 +14,11 @@
 /* class goes here */
 .col {
     column-count: 2;
+    word-wrap: break-word;
 }
 .footer-highlight {
     background: #C2A56D;
     color: #000000;
-}
-.h1 {
-    color: white;
-    margin: 5px;
-    border-radius: 10px;
-    background: #547A95;
 }
 .head {
     background-image: url("https://i.ibb.co/fYS0RCQc/IMG-0102-20260415-142655-0000.gif");
@@ -45,15 +42,17 @@
     left: 30%;
 }
 .icon {
+    vertical-align: middle;
     border: none;
     height: 20px;
     display: inline-block;
 }
 .nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: block;
-    margin-top: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
     background: #2C3947;
     text-transform: uppercase;
 }
@@ -61,10 +60,9 @@
     display: inline-block;
 }
 .next-to {
-    position: sticky;
-    right: 25%;
-    float: right;
-    font-size: 20px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
     font-weight: normal;
 }
 .no-bg {
@@ -77,6 +75,7 @@
     clear: right;  
 }
 .title {
+    padding-top: 10px;
     color: white;
     text-align: center;
     display: block;
@@ -98,14 +97,13 @@ a:hover {
     text-decoration: underline;
 }
 body {
-    border-radius: 25px 50px 10px;
-    border-collapse: separate;
     background: #E8EDF2;
     font-family: Arial;
     font-size: 20px;
 }
 div {
-    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 10px;
 }
 footer {
@@ -113,9 +111,18 @@ footer {
     padding: 10px 10px 20px 5px;
     background: #2C3947;
 }
+h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-left: 5px solid #547A95;
+}
 img {
-    border-right: 5px solid black;
-    border-bottom: 5px solid black;
+    border-right: 5px inset black;
+    border-bottom: 5px inset black;
+    border-radius: 10px;
 }
 p {
     margin-left: 10%;
