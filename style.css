@@ -1,4 +1,18 @@
+/* id goes here */
+#highlight {
+    border-radius: 5px;
+    text-shadow: 5px 5px 5px black;
+    background: red;
+    color: yellow;
+}
+/* end of id */
+
+
+
 /* class goes here */
+.col {
+    column-count: 2;
+}
 .footer-highlight {
     background: #C2A56D;
     color: #000000;
@@ -68,6 +82,10 @@
     display: block;
     background: #2C3947;
 }
+/* end of class */
+
+
+
 /* main goes here */
 a {
     font-weight: bold;
@@ -103,10 +121,4 @@ p {
     margin-left: 10%;
     margin-right: 10%;
 }
-/* Id goes here */
-#highlight {
-    border-radius: 5px;
-    text-shadow: 5px 5px 5px black;
-    background: red;
-    color: yellow;
-}
+/* end of main */
