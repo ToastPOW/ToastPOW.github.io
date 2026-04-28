@@ -50,12 +50,12 @@
     background: #C2A56D;
     color: #000000;
 }
-.gallery img {
+.gallery img{
     width: 200px;
     margin: auto;
 }
 .head {
-    background-image: url("https://i.ibb.co/fYS0RCQc/IMG-0102-20260415-142655-0000.gif");
+    background-image: url("resource/other/cover.gif");
     background-color: black;
     background-repeat: no-repeat;
     background-size: contain;
@@ -65,7 +65,8 @@
     font-size: 30px; 
     height: 450px; 
     padding-top: 20px;
-   
+    margin-left: -12%;
+    margin-right: -12%;
 }
 .head span {
     text-align: center;
@@ -106,9 +107,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-.no-bg {
-    background: none;
-}
 .social-link {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -120,12 +118,14 @@
     text-align: center;
     display: block;
     background: #2C3947;
+    margin-left: -12%;
+    margin-right: -12%;
 }
 /* end of class */
 
 
 
-/* main goes here */
+/* tag goes here */
 a {
     color: white;
     font-weight: bold;
@@ -141,11 +141,19 @@ body {
     background: #E8EDF2;
     font-family: Arial;
     font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 div {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
+}
+figcaption {
+    text-align: center;
+    background: #dddddd;
+    border-radius: 0 0 10px 10px;
+    font-style: italic;
 }
 footer {
     color: white;
@@ -160,6 +168,11 @@ h1 {
     padding-left: 20px;
     border-radius: 5px;
     border-left: 5px solid #547A95;
+}
+h3 {
+    text-align: center;
+    border-left: 50px solid green;
+    border-right: 50px solid purple;
 }
 img {
     border-right: 5px inset black;
