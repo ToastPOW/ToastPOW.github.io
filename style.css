@@ -160,6 +160,8 @@ footer {
     font-size: 15px;
     padding: 10px 10px 20px 5px;
     background: #2C3947;
+    margin-left: -12%;
+    margin-right: -12%;
 }
 h1 {
     padding-left: 10px;
@@ -182,5 +184,8 @@ img {
 p {
     margin-left: 10%;
     margin-right: 10%;
+}
+video {
+    border-radius: 10px;
 }
 /* end of main */
